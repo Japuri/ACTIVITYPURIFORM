@@ -1,0 +1,15 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+*.pyc
+__pycache__/
+
+# SQLite database
+db.sqlite3
+
+# Django media files (uploaded images)
+media/
+
+# PyCharm settings
+.idea/
