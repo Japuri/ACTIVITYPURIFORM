@@ -7,19 +7,16 @@
 
 ## Installation
 ```bash
-git clone https://github.com/YOURUSERNAME/ACTIVITYPURI.git
+git clone https://github.com/Japuri/ACTIVITYPURIFORM.git
 cd ACTIVITYPURI
+#create venv
 python -m venv venv
 
 # Windows
 venv\Scripts\activate
-
-# macOS/Linux
-source venv/bin/activate
 
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
 
-# ACTIVITYPURIFORM
